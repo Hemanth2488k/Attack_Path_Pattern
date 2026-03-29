@@ -1,0 +1,11 @@
+tqdm==4.66.1
+torch==2.1.0  # Adjust for your system (CPU/GPU); see pytorch.org
+neo4j==5.20.0
+requests==2.31.0
+google-generativeai==0.3.2
+networkx==3.2.1
+torch-geometric==2.5.0  # Requires torch; may need specific install (see below)
+pyvis==0.3.2
+streamlit==1.29.0
+pandas==2.1.3
+python-dotenv==1.0.0
