@@ -19,7 +19,7 @@ from pathlib import Path
 # -------------------------------------------------------------------
 EDGE_WEIGHT_MIN, EDGE_WEIGHT_MAX = 0.1, 1.0
 GEMINI_MODEL_PREFERRED = ["gemini-1.5-flash"]
-#GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY_PLACEHOLDER", "AIzaSyAk0oG88pIS9Ff0vEsBDXrhNI09vl2Nn3g")
+#GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY_PLACEHOLDER", "GEMINI_API_KEY")
 GEMINI_API_KEY=""
 # Default Neo4j env
 NEO4J_URI = os.getenv("NEO4J_URI", "neo4j://localhost:7687")
